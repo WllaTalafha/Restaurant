@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefly</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-q-G7yl7rUrSoOUSWvRNpuETMSb4svKCmg&usqp=CAU">
+    <title>Chefly</title>
+    <link rel="StyleSheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+       <p>Chefly</p>
+     </header>
+
+    <main>
+            <form id="form">
+                <br>
+                <label>Food Name :</label><br>
+                <input type="text" id="foodName" name="food Name" placeholder="Burger,Pizza,etc..."/>
+                <br>
+                <br>
+                <label>Choose the type of the food :</label><br>
+                <br>
+                <input type="radio" id="type" name="types of the food" value="Fruit and vegetables.">
+                <label for="fv">Fruit and vegetables.</label>
+                <br>
+                <input type="radio" id="type" name="types of the food" value="Starchy food.">
+                <label for="sf">Starchy food.</label>
+                <br>
+                <input type="radio" id="type" name="types of the food" value="Diary food.">
+                <label for="df">Diary food.</label>
+                <br>
+                <input type="radio" id="type" name="types of the food" value="protein">
+                <label for="protein">Protein food.</label>
+                <br>
+                <input type="radio" id="type" name="types of the food" value="Fat.">
+                <label for="Fat.">Fat.</label>
+                <br>
+                <br>
+                <label>Price :</label>
+                <input type="text" id="price" name="price" placeholder="4.25 JD"/>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="Add to the table"/>
+            </form>
+       
+            <table class="t" style="width:100%">
+                <tr>
+                  <td>ID</td>
+                  <td>Name</td>
+                  <td>Type</td>
+                  <td>Price</td>
+                </tr>
+                <table id="table">
+
+                </table>
+            </table>
+    </main>
+
+    <footer>
+        <a href="https://web.facebook.com/" facebook>facebook</a>
+        <a href="https://www.instagram.com/" instagram>instagram</a>
+        <p>© Copyright, Chefly</p>
+    
+    </footer>
+<script src="./app.js"></script>
+</body>
+</html>
