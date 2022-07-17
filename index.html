@@ -16,48 +16,46 @@
      </header>
 
     <main>
-            <form id="form">
+            <form id="formID">
                 <br>
                 <label>Food Name :</label><br>
-                <input type="text" id="foodName" name="food Name" placeholder="Burger,Pizza,etc..."/>
+                <input type="text" id="foodNameID" name="food Name" placeholder="Burger,Pizza,etc..."/>
                 <br>
                 <br>
-                <label>Choose the type of the food :</label><br>
-                <br>
-                <input type="radio" id="type" name="types of the food" value="Fruit and vegetables.">
-                <label for="fv">Fruit and vegetables.</label>
-                <br>
-                <input type="radio" id="type" name="types of the food" value="Starchy food.">
-                <label for="sf">Starchy food.</label>
-                <br>
-                <input type="radio" id="type" name="types of the food" value="Diary food.">
-                <label for="df">Diary food.</label>
-                <br>
-                <input type="radio" id="type" name="types of the food" value="protein">
-                <label for="protein">Protein food.</label>
-                <br>
-                <input type="radio" id="type" name="types of the food" value="Fat.">
-                <label for="Fat.">Fat.</label>
+                <label for="cars">The food type:</label>
+                <select name="Types of food" id="foodTypeID" value="Types of food">
+                <option value="">--Please choose a food type--</option>
+                <option value="Fruit and vegetables">Fruit and vegetables</option>
+                <option value="Starchy food">Starchy food</option>
+                <option value="Dairy">Dairy</option>
+                <option value="Protein">Protein</option>
+                <option value="Fat">Fat</option>
+                </select>
                 <br>
                 <br>
                 <label>Price :</label>
-                <input type="text" id="price" name="price" placeholder="4.25 JD"/>
+                <input type="text" id="priceID" name="price" placeholder="4.25 JD"/>
                 <br>
                 <br>
                 <input id="submit" type="submit" value="Add to the table"/>
             </form>
        
-            <table class="t" style="width:100%">
-                <tr>
-                  <td>ID</td>
-                  <td>Name</td>
-                  <td>Type</td>
-                  <td>Price</td>
-                </tr>
-                <table id="table">
 
-                </table>
+            <table class="tableClass" style="width:100%">
+            <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Price</th>
+                </tr>
+            </thead>
+                <tbody id="jsTableID">
+
+                </tbody>>
             </table>
+            <br>
+            <br>
     </main>
 
     <footer>
