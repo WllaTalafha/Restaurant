@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 const foodMenu =[];
 function Food (foodName,type,price) {
@@ -74,4 +74,4 @@ function get() {
     }
   }
 }
-get();
+get();*/
